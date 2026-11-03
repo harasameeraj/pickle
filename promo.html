@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>KitchenIQ promo renderer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@700;900&display=swap" rel="stylesheet" />
+    <style>
+      body { margin: 0; background: #000; color: #ccc; font: 14px Inter, sans-serif; display: flex; gap: 16px; padding: 16px; }
+      canvas#c { height: 90vh; width: auto; border: 1px solid #333; }
+      button { font: inherit; padding: 8px 14px; }
+    </style>
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <div>
+      <div id="status">Loading…</div>
+      <p><button onclick="renderPromo()">Render MP4</button></p>
+      <p><input type="range" min="0" max="33.5" step="0.1" value="0" oninput="previewPromo(+this.value)" style="width: 300px" /></p>
+    </div>
+    <div id="stage" style="position: fixed; left: -3000px; top: 0; width: 1080px; height: 1080px"></div>
+    <script type="module" src="/promo/main.ts"></script>
+  </body>
+</html>

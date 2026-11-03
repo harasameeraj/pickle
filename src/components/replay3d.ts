@@ -364,6 +364,13 @@ export class ReplayScene {
     this.ghostGroup.add(tag)
   }
 
+  /** Place the ghost ball at a fraction of its arc (for frame-exact rendering). */
+  setGhostPhase(u: number) {
+    if (!this.ghostBall || !this.ghostPts.length) return
+    const i = Math.min(this.ghostPts.length - 1, Math.max(0, Math.floor(u * this.ghostPts.length)))
+    this.ghostBall.position.copy(this.ghostPts[i])
+  }
+
   clearGhost() {
     for (const c of [...this.ghostGroup.children]) this.ghostGroup.remove(c)
     this.ghostBall = null

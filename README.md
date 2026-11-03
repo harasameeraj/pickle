@@ -2,6 +2,8 @@
 
 Film a doubles game and get a chess.com-style **Game Review**: automatic scorekeeping, every shot graded from Brilliant to Blunder, accuracy per player, a win-probability graph, key moments, a 3D replay of every rally with a "show me the better shot" ghost, coach reports with voice, drills, and an exportable vertical highlight reel. **Live Coach** gives real-time voice feedback on ready position, dink form and serve legality from the camera.
 
+Working on the code with an AI agent? Start with [AGENTS.md](AGENTS.md); it has the full architecture, conventions and backlog.
+
 Everything runs in the browser. Videos and analysis stay on the device (IndexedDB).
 
 ## Run it

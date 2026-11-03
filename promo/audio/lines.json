@@ -1,0 +1,86 @@
+{
+ "v1": {
+  "text": "You lost that point.",
+  "dur": 1.161,
+  "speed": 1.0,
+  "onsets_after_pauses": []
+ },
+ "v2": {
+  "text": "But do you actually know why?",
+  "dur": 1.436,
+  "speed": 1.0,
+  "onsets_after_pauses": []
+ },
+ "v3": {
+  "text": "Meet KitchenIQ. An AI coach that watches every shot you play.",
+  "dur": 3.806,
+  "speed": 1.167,
+  "onsets_after_pauses": [
+   1.363
+  ]
+ },
+ "v4": {
+  "text": "Just film your game. It tracks every player, every rally, and keeps the score for you.",
+  "dur": 4.78,
+  "speed": 1.0,
+  "onsets_after_pauses": [
+   1.461
+  ]
+ },
+ "v5a": {
+  "text": "Then it grades every single shot.",
+  "dur": 1.881,
+  "speed": 1.0,
+  "onsets_after_pauses": [
+   0.773
+  ]
+ },
+ "v5b": {
+  "text": "From brilliant... to blunder.",
+  "dur": 1.632,
+  "speed": 1.0,
+  "onsets_after_pauses": [
+   0.964
+  ]
+ },
+ "v6": {
+  "text": "See the exact moment the match turned.",
+  "dur": 1.894,
+  "speed": 1.0,
+  "onsets_after_pauses": []
+ },
+ "v7": {
+  "text": "Replay any rally in 3D, and see the shot you should have hit.",
+  "dur": 3.526,
+  "speed": 1.0,
+  "onsets_after_pauses": [
+   2.071
+  ]
+ },
+ "v8": {
+  "text": "Then your coach tells you the one thing to fix.",
+  "dur": 2.23,
+  "speed": 1.0,
+  "onsets_after_pauses": []
+ },
+ "v9a": {
+  "text": "Stop guessing.",
+  "dur": 0.926,
+  "speed": 1.0,
+  "onsets_after_pauses": []
+ },
+ "v9b": {
+  "text": "Start winning.",
+  "dur": 0.81,
+  "speed": 1.0,
+  "onsets_after_pauses": []
+ },
+ "v10": {
+  "text": "KitchenIQ. Coming soon.",
+  "dur": 1.851,
+  "speed": 1.0,
+  "onsets_after_pauses": [
+   1.072
+  ]
+ }
+}
