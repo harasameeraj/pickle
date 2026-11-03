@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview --host",
     "typecheck": "tsc -b --noEmit",
-    "dev:phone": "HTTPS=1 vite --host"
+    "dev:phone": "HTTPS=1 vite --host",
+    "deploy": "GH_PAGES=1 vite build && cp dist/index.html dist/404.html && touch dist/.nojekyll && cd dist && rm -rf .git && git init -q && git checkout -q -b gh-pages && git add -A && git commit -q -m deploy && git push -f https://github.com/harasameeraj/pickle.git gh-pages"
   },
   "dependencies": {
     "@mediapipe/tasks-vision": "0.10.14",
