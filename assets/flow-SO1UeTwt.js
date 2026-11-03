@@ -1,0 +1,1 @@
+const s={fps:10};function t(e,o){s.url&&URL.revokeObjectURL(s.url),Object.assign(s,{file:e,name:o,url:URL.createObjectURL(e),corners:void 0,seeds:void 0,settings:void 0,raw:void 0,drafts:void 0,setupTime:void 0})}export{s as f,t as s};
